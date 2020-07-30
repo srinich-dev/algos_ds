@@ -50,4 +50,8 @@ public class LinkedList<T> {
 		return data;
 	}
 
+	public Node<T> getHead() {
+		return this.head;
+	}
+
 }
