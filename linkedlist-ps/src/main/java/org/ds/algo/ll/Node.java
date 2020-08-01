@@ -1,4 +1,4 @@
-package org.ds.algo.ll.linkedlistps;
+package org.ds.algo.ll;
 
 public class Node<T> {
 
@@ -25,6 +25,11 @@ public class Node<T> {
 
 	public void setNext(Node<T> next) {
 		this.next = next;
+	}
+
+	@Override
+	public String toString() {
+		return "Node [data=" + data + "]";
 	}
 
 }

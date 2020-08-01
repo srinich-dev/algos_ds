@@ -3,6 +3,8 @@ package org.ds.algo.ll.linkedlistps;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.ds.algo.ll.Node;
+
 public class LinkedListStack<T> {
 
 	private Node<T> head;

@@ -1,5 +1,7 @@
 package org.ds.algo.ll.linkedlistps;
 
+import org.ds.algo.ll.Node;
+
 public class FindNthNodeFromEndOfLL {
 
 	public int findNthNodeFromEndOfLL(LinkedList<Integer> linkedList, int k) {

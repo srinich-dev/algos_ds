@@ -3,9 +3,15 @@ package org.ds.algo.ll.linkedlistps;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.ds.algo.ll.Node;
+
 public class LinkedList<T> {
 
 	private Node<T> head;
+
+	public void setHead(Node<T> head) {
+		this.head = head;
+	}
 
 	public void add(T data) {
 		Node<T> newNode = new Node<T>(data, null);
@@ -42,12 +48,22 @@ public class LinkedList<T> {
 
 	public List<T> getAllDataAsArray() {
 		List<T> data = new ArrayList<>();
-		while (this.head != null) {
-			data.add(head.getData());
-			head = head.getNext();
+		Node<T> currentNode = this.head;
+		while (currentNode != null) {
+			data.add(currentNode.getData());
+			currentNode = currentNode.getNext();
 		}
 
 		return data;
+	}
+
+	public void displayLinkedList() {
+		Node<T> currentNode = this.head;
+		while (currentNode != null) {
+			System.out.print(currentNode.getData() + ", ");
+			currentNode = currentNode.getNext();
+		}
+		System.out.println();
 	}
 
 	public Node<T> getHead() {
