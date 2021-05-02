@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-02T07:10:18.753Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="HETi_hHTiw94lypPf-cX" version="14.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-02T07:13:17.127Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="6yW3i4yFrhEEtLoOAWGR" version="14.6.9" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="782" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -194,6 +194,14 @@
         </mxCell>
         <mxCell id="mjYuWuDwwWa4jm_J4tlU-77" value="Login as aseptic process user&amp;nbsp;" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="160" y="1729" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mjYuWuDwwWa4jm_J4tlU-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mjYuWuDwwWa4jm_J4tlU-78" target="WIyWlLk6GJQsqaUBKTNV-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="40" y="1850" />
+              <mxPoint x="40" y="90" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="mjYuWuDwwWa4jm_J4tlU-78" value="Enter name and emp id and issue and garment to the employee and mark it as under use" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="160" y="1810" width="120" height="80" as="geometry" />
