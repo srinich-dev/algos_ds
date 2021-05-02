@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-02T07:04:27.766Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="3Nlb8ykJc_Zmv-nFqteu" version="14.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-02T07:10:18.753Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="HETi_hHTiw94lypPf-cX" version="14.6.9" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="782" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -154,6 +154,9 @@
         <mxCell id="mjYuWuDwwWa4jm_J4tlU-60" value="Check the &lt;br&gt;washing and drying state is proper" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="160" y="1290" width="120" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="mjYuWuDwwWa4jm_J4tlU-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mjYuWuDwwWa4jm_J4tlU-62" target="mjYuWuDwwWa4jm_J4tlU-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="mjYuWuDwwWa4jm_J4tlU-62" value="Enter autoclave load number" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="160" y="1430" width="120" height="50" as="geometry" />
         </mxCell>
@@ -166,11 +169,34 @@
         <mxCell id="mjYuWuDwwWa4jm_J4tlU-66" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="110" y="1320" width="30" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="mjYuWuDwwWa4jm_J4tlU-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mjYuWuDwwWa4jm_J4tlU-68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="1490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mjYuWuDwwWa4jm_J4tlU-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mjYuWuDwwWa4jm_J4tlU-68" target="mjYuWuDwwWa4jm_J4tlU-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="mjYuWuDwwWa4jm_J4tlU-68" value="&amp;nbsp;if any break &lt;br&gt;down during autoclave sterilization" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="160" y="1510" width="120" height="110" as="geometry" />
         </mxCell>
         <mxCell id="mjYuWuDwwWa4jm_J4tlU-69" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="285" y="1530" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mjYuWuDwwWa4jm_J4tlU-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mjYuWuDwwWa4jm_J4tlU-74" target="mjYuWuDwwWa4jm_J4tlU-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mjYuWuDwwWa4jm_J4tlU-74" value="Update the garment status as ready to use" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="1650" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mjYuWuDwwWa4jm_J4tlU-76" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="235" y="1620" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mjYuWuDwwWa4jm_J4tlU-77" value="Login as aseptic process user&amp;nbsp;" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="1729" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mjYuWuDwwWa4jm_J4tlU-78" value="Enter name and emp id and issue and garment to the employee and mark it as under use" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="1810" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
